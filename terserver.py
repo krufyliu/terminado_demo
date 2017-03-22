@@ -10,4 +10,5 @@ if __name__ == "__main__":
   ]
   app = tornado.web.Application(handlers)
   app.listen(8010)
+  print("listenning at 8010 ...")
   IOLoop.current().start()
